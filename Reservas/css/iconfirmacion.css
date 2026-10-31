@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #1F2937;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .FechaReserva {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .FechaReserva p {
+    margin: 5px 0;
+  }
+
+  input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .btn {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #005599;
+  }
+  .telefono input {
+    width: 70%;
+  }
+
+  .contacto {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9em;
+  }

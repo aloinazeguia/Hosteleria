@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura Ticket</title>
+    <link rel="stylesheet" href="../css/factura.css">
+    <link rel="stylesheet" href="../../components/AlertComponents.css">
+</head>
+<body>
+    <main>
+        <div id="ticket">
+            <!-- Datos empresa -->
+            <div class="empresa">CIFP Usurbil LHII</div>
+            <div class="datosEmpresa">
+                Etarte bidea<br>
+                9<br>
+                Zubieta-Usurbil<br>
+                20170<br>
+                943364600
+            </div>
+
+            <!-- Encabezado -->
+            <div class="section bold">FACTURA SIMPLIFICADA</div>
+            <div class="section" id="fecha-hora"></div>
+            <div class="section" id="sala-mesa"></div>
+            <div class="section" id="forma-pago"></div>
+
+            <!-- Lista de productos -->
+            <ul id="listaCobro" class="section"></ul>
+
+            <!-- Totales -->
+            <div class="total">
+                <div class="section">TOTAL</div>
+                <div class="section" id="total"></div>
+            </div>
+
+            <!-- Detalles adicionales -->
+            <div class="section">Base imponible: <span id="base-iva"></span> €</div>
+            <div class="section">Cuota IVA (10%): <span id="cuota-iva"></span> €</div>
+
+        </div>
+
+        <!-- Botón para imprimir -->
+        <button id="boton-imprimir">Imprimir</button>
+    </main>
+
+    <script type="module" src="../js/subtotal.js"></script>
+</body>
+</html>

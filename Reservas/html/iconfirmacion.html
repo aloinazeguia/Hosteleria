@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Reserva</title>
+  <link rel="stylesheet" href="/Reservas/css/iconfirmacion.css">
+  
+  <script src="/Reservas/javascript/iconfirmacion.js"></script>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>INGRESE SUS DATOS PERSONALES.</h1>
+     <h3>Hora: 12:00</h3>
+     <div class="FechaReserva">
+      <p>Dia: </p>
+      <p>Personas:</p>
+      <p>Mesa</p>
+    </div>
+    <div id="Fecha">
+      
+      
+    </div>
+  <div id="personas">
+      
+      
+    </div>
+    <form  onsubmit="DatosUsuario (); return false;" id="FormReserva" >
+       <!--<input type="text" placeholder="Nombre" required>
+        <input type="text" placeholder="Apellido" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Teléfono" required>
+        <textarea rows="3" placeholder="Añadir peticiones especiales"></textarea>-->
+
+        <br>
+      <label for="nombre">NOMBRE:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellido">APELLIDO:</label>
+      <input type="text" id="apellido" name="apellido" required>
+
+      <label for="telefono">TELÉFONO:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <label for="email">EMAIL:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="comentarios">COMENTARIOS:</label>
+      <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+        <button type="submit" class="btn">CONFIRMAR RESERVA</button>
+    </form>
+
+    <p class="contacto">Llámenos al <strong style="color:#003366;">943364600</strong> si son más de 8 personas o si tiene cualquier duda.</p>
+  </div>
+</body>
+</html>

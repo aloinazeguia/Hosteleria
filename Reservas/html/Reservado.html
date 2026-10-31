@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gracias por Reservar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #b34b2d;
+      margin-bottom: 4rem;
+    }
+
+    .mensaje {
+      background-color: #2e3138;
+      color: white;
+      padding: 3rem 2rem;
+      border-radius: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+    }
+
+    .mensaje p {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .btn-nueva {
+      background-color: #b34b2d;
+      color: white;
+      font-weight: bold;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn-nueva:hover {
+      background-color: #943f25;
+    }
+
+    .btn-nueva::before {
+      content: "🪪 ";
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>RESERVAS</h1>
+
+  <div class="mensaje">
+    <p>¡MUCHAS GRACIAS POR<br>RESERVAR CON NOSOTROS!</p>
+    <button class="btn-nueva" onclick="window.location.href='clientereserva.html'">NUEVA RESERVA</button>
+  </div>
+
+</body>
+</html>

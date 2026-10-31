@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cobrar</title>
+  <link rel="stylesheet" href="../css/menu.css" />
+  <link rel="stylesheet" href="../../components/AlertComponents.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      
+      <div class="main">
+        <!-- Pedido -->
+        <div class="Resumenpedido">
+          <h2>PEDIDO</h2>
+         <ul id="listaCobro"></ul>
+            <div class="Ptotal">
+              
+              <p>Total: <span id="totalCobro">0.00</span>€</p> 
+            </div>
+        </div>
+        <div class="pagos">
+          <h2>PAGO CON:</h2>
+          <button id="boton-tarjeta">TARJETA</button>
+          <button id="boton-efectivo">EFECTIVO</button>
+          <button id="boton-cancelar">CANCELAR</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Asegúrate de que la ruta del script sea correcta -->
+  <script defer type="module" src="../js/cobrar.js"></script>
+</body>
+
+</html>

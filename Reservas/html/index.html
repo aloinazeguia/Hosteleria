@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/Reservas/css/index.css">
+    <link rel="stylesheet" href="/Reservas/css/salas.css">
+     <link rel="styleSheet" href="/components/AlertComponents.css"/>
+    <script src="/Reservas/javascript/isalas.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>RESERVE EN LHUSURBIL</h2>
+        <p class="direccion">De Etarte Bidea, 20160 Zubieta, Gipuzkoa</p>
+
+        <form id="FechaReserva">
+            <div class="FechaReserva">
+
+                <label for="numComensales">👤 N° DE PERSONAS:</label><br>
+                <input type="number" id="personas" name="numComensales" min="1" max="8" required><br><br>
+                <label for="fecha">Fecha:</label><br>
+                <input type="date" id="fecha" name="fecha" required><br><br>
+                <label for="hora">Hora: 12:00</label><br><br>
+                <button type="button" onclick="FechaReserva()" class="continuar">CONTINUAR</button>
+                <!--<input type="time" id="hora" name="hora" required><br><br>-->
+               
+                 <div id="sala1"style="display: none;">
+                     <h2>Seleccione su mesa en la sala:</h2>
+                    
+                    <button class="continuar"><a style="text-decoration: none; color:#fff" href="/Reservas/Salas_/sala1.html">ELEGIR MESA</a></button>
+                </div>
+            </div>
+        </form>
+        <p class="contacto">Llámenos al <strong style="color:#003366;">943364600</strong> si son más de 8 personas o si
+            tiene cualquier duda.</p>
+    </div>
+<a href="/index.html"><button class="volver"> Volver</button></a>
+
+    </body>
+</html>

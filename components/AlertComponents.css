@@ -1,0 +1,55 @@
+.alertComponent{
+    background-color: rgb(152, 85, 146);
+    min-width: 50rem;
+    min-height: 10rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.15);
+}
+.alertMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.alertMessageText{
+    color:#ffffff;
+    font-size: 2em;
+    font-weight: 800;
+    margin:2rem 0 5rem 0;
+    word-break: break-all;
+}
+.alertBtn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #000;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.alertMessageBtnAceptar{
+    background-color: rgb(192, 195, 36);
+    transform: translate(-20%,-45%);
+}
+
+
+.alertMessageBtnAceptar_confirm{
+    background-color: rgb(192, 195, 36);
+    transform: translate(-150%,-45%);
+}
+.alertMessageBtnCancelar{
+    background-color: rgb(195, 81, 36);
+    transform: translate(-20%,-45%);
+}
+.alertBtn:hover{
+    background-color: rgb(255, 255, 255);
+}

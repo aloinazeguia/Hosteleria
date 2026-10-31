@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedido</title>
+  <link rel="stylesheet" href="../css/menu.css" />
+  <link rel="styleSheet" href="../../components/AlertComponents.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <!-- Categorías -->
+      <div class="sidebar">
+        <h2>CATEGORIAS</h2>
+        <ul id="containerCategorias">
+          <!--Es dinamico-->
+          <!--Se van a generar desde el Js las etiquetas, dependiendo a las categorias que encuentre-->
+          <!--<li><a href="categorias.html" categoria-datos="1">Ejemplo</a></li>-->
+          <!---->
+        </ul>
+      </div>
+      <div id="containerListadoDatos">
+        <!--SE GENERA DE FORMA DINAMICA LAS SUB CATEGORIAS-->
+
+      </div>
+
+      <!-- Pedido -->
+      <div class="pedido">
+        <div class="pedido-header">
+          <div id="boton-esperar">Enviar</div>
+          <h2>PEDIDO</h2>
+        </div>
+        <hr>
+        <ul class="pedido-ul">
+          <!--aqui deben aparecer los productos añadididos-->
+        </ul>
+        <div class="total">
+          <p>TOTAL<!-- aqui debe aparecer el precio total de los productos -->: </p>
+          <span></span>
+        </div>
+
+        <a ><button class="subtotal-btn" >SUBTOTAL</button></a>
+        <a ><button class="cobrar-btn" >COBRAR</button></a>
+
+      </div>
+
+      <!-- Productos -->
+      <script defer type="module" src="../js/menu.js"></script>
+      <script defer type="module" src="../js/pedido.js"></script>
+
+
+    </div>
+  </div>
+</body>
+
+</html>

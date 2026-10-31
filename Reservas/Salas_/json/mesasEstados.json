@@ -1,0 +1,21 @@
+[
+    { "idMesa": 1, "estado": 0 },
+    { "idMesa": 2, "estado": 1 },
+    { "idMesa": 3, "estado": 2 },
+    { "idMesa": 4, "estado": 3 },
+    { "idMesa": 5, "estado": 0 },
+    { "idMesa": 6, "estado": 1 },
+    { "idMesa": 7, "estado": 2 },
+    { "idMesa": 8, "estado": 3 },
+    { "idMesa": 9, "estado": 0 },
+    { "idMesa": 10, "estado": 1 },
+    { "idMesa": 11, "estado": 2 },
+    { "idMesa": 12, "estado": 3 },
+    { "idMesa": 13, "estado": 0 },
+    { "idMesa": 14, "estado": 1 },
+    { "idMesa": 15, "estado": 2 },
+    { "idMesa": 16, "estado": 3 },
+    { "idMesa": 17, "estado": 0 },
+    { "idMesa": 18, "estado": 1 },
+    { "idMesa": 19, "estado": 2 }
+]

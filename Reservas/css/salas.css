@@ -1,0 +1,257 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 10px 0;
+  margin: 0;
+  height: 50px;
+}
+
+.cantidad {
+  position: fixed;
+  top: 120px;
+  left: 82%;
+  background-color: #6EE7B7;
+  color: #1F2937;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+h1 {
+  position: fixed;
+  top: 150px;
+  width: 100%;
+  font-size: 55px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  color: #ddd;
+}
+
+/* sala1*/
+.sala1 {
+  background: #0b041f;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  flex-direction: column;
+
+
+}
+
+.restaurante {
+  position: relative;
+  width: 770px;
+  height: 920px;
+  margin: 40px auto;
+  border: 6px solid #ffffff;
+  background-color: #2e3138;
+  top: 50px;
+  border-radius: 20px;
+}
+
+.mesa {
+  position: absolute;
+  background-color: #f9f7f7;
+  border: 4px solid #050505;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px;
+  width: 140px;
+  height: 160px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.n1 {
+  top: 130px;
+  left: 170px;
+}
+
+.n2 {
+  top: 380px;
+  left: 170px;
+}
+
+.n3 {
+  top: 630px;
+  left: 170px;
+}
+
+.n4 {
+  top: 130px;
+  left: 450px;
+}
+
+.n5 {
+  top: 380px;
+  left: 450px;
+}
+
+.n6 {
+  top: 630px;
+  left: 450px;
+}
+
+
+/*sala2*/
+
+.sala2 {
+  background: #0b041f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.plano {
+  position: relative;
+  width: 900px;
+  height: 900px;
+  margin: 40px auto;
+  border: 6px solid #ffffff;
+  background-color: #2e3138;
+  top: 70px;
+  border-radius: 20px;
+}
+
+.numero {
+  position: absolute;
+  background-color: #f9f7f7;
+  border: 4px solid #0b0b0b;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.n11,
+.n17,
+.n10,
+.n16 {
+  width: 7%;
+  height: 7%;
+}
+
+
+.n7,
+.n8,
+.n9,
+.n14,
+.n15 {
+  height: 150px;
+
+}
+
+.n7 {
+  top: 100px;
+  left: 60px;
+}
+
+.n12 {
+  top: 100px;
+  left: 280px;
+}
+
+.n13 {
+  top: 100px;
+  left: 480px;
+}
+
+.n18 {
+  top: 190px;
+  left: 680px;
+}
+
+.n8 {
+  top: 360px;
+  left: 60px;
+}
+
+.n11 {
+  top: 350px;
+  left: 295px;
+}
+
+.n14 {
+  top: 310px;
+  left: 380px;
+}
+
+.n17 {
+  top: 350px;
+  left: 525px;
+}
+
+.n9 {
+  top: 620px;
+  left: 60px;
+}
+
+.n10 {
+  top: 625px;
+  left: 295px;
+}
+
+.n15 {
+  top: 580px;
+  left: 380px;
+}
+
+.n16 {
+  top: 625px;
+  left: 525px;
+}
+
+.n19 {
+  top: 510px;
+  left: 680px;
+}
+
+
+/* flechas */
+#flechaIzquierda {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 80px;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 75px;
+}
+
+
+#flechaDerecha {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 75px;
+
+}

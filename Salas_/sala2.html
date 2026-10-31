@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>s2</title>
+  <link rel="stylesheet" href="./css/salas.css">
+</head>
+
+<body class="sala2">
+  <main>
+    <div id="plano" class="grid">
+      <!-- Se generar Dinamicamente con JS -->
+    </div>
+    <div class="container_aside">
+      <aside>
+        <div class="cantidad">
+          Clientes: &nbsp; <span id="contador" class="actual"></span>
+        </div>
+         <button class="btnRes" id="reservar">Reservar</button>
+         <h1 id="titulo">SALA 2</h1>
+        <a href="sala1.html"> <!-- ira de una sala a otra mediante la flecha-->
+          <img src="./images/flechaIzquierda.png" alt="Ir a sala 1" id="flechaIzquierda">
+        </a>
+      </aside>
+    <script defer type="module" src="./js/mesasEstado.js"></script>
+    <script defer type="module" src="./js/salas.js"></script>
+
+  </main>
+</body>
+
+</html>

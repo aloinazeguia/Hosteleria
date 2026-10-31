@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>s2</title>
+  <link rel="stylesheet" href="../css/salas.css">
+</head>
+
+<body class="sala2">
+  <header>
+    <img src="logo.png" alt="Aqui va el logo" id="logo">
+    <h1 id="titulo">SALA 2</h1>
+    <button class="cantidad">
+      0 / 48
+    </button>
+  </header>
+  <div class="plano">
+    <button class="numero n7">7</button>
+    <button class="numero n8">8</button>
+    <button class="numero n9">9</button>
+    <button class="numero n10">10</button>
+    <button class="numero n11">11</button>
+    <button class="numero n12">12</button>
+    <button class="numero n13">13</button>
+    <button class="numero n14">14</button>
+    <button class="numero n15">15</button>
+    <button class="numero n16">16</button>
+    <button class="numero n17">17</button>
+    <button class="numero n18">18</button>
+    <button class="numero n19">19</button>
+  </div>
+  <a href="salas1.html">
+    <img src="flechaIzquierda.png" alt="Volver a sala 1" id="flechaIzquierda">
+  </a>
+  <!-- Ejemplo para salas1.html y salas2.html -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.mesa, .numero').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const mesaId = btn.textContent.trim();
+          localStorage.setItem('mesaSeleccionada', mesaId);
+          window.location.href = 'menu.html';
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

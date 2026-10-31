@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2D2F39;
+    color: white;
+}
+
+header {
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    background-image: url('logo.png'); /* Reemplazar con el logo real si es necesario */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pantalla {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.contador {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #64D8B5;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+.volver {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #64D8B5;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.boton-aceptar {
+    background-color: #4cc29f;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100px;   
+    height: 40px;
+    margin-top: 50px;
+   
+
+}
+.boton {
+    width: 200px;
+    height: 260px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #2D2F39;
+    text-align: center;
+    padding: 10px;
+}
+
+.boton.columna {
+    flex-direction: column;
+}
+
+.boton.verde {
+    background-color: #64D8B5;
+}
+
+.boton.amarillo {
+    background-color: #EAC066;
+}
+
+.boton.rojo {
+    background-color: #C4542E;
+    color: white;
+}
+
+.numero {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.entrada {
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.flecha {
+    font-size: 3em;
+    color: #EFECCF;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}

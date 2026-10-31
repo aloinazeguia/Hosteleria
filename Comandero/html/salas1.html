@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>s1</title>
+  <link rel="stylesheet" href="../css/salas.css">
+</head>
+
+<body class="sala1">
+  <header>
+    <img src="logo.png" alt="Aqui va el logo" id="logo">
+    <h1 id="titulo">SALA 1</h1>
+    <button class="cantidad">0 / 24</button>
+  </header>
+  <div class="restaurante">
+    <button class="mesa n1">1</button>
+    <button class="mesa n2">2</button>
+    <button class="mesa n3">3</button>
+    <button class="mesa n4">4</button>
+    <button class="mesa n5">5</button>
+    <button class="mesa n6">6</button>
+  </div>
+  <a href="salas2.html">
+    <img src="flechaDerecha.png" alt="Ir a sala 2" id="flechaDerecha">
+  </a>
+  <!-- Ejemplo para salas1.html y salas2.html -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.mesa, .numero').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const mesaId = btn.textContent.trim();
+          localStorage.setItem('mesaSeleccionada', mesaId);
+          window.location.href = 'menu.html';
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
