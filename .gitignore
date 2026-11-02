@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Node.js
+**/node_modules/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated output
+dist/
+coverage/
